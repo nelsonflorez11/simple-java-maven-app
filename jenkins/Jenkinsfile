@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'maven:3.5.2-alpine@sha256:7cebda60f8a541e1bf2330306d22f9786f989187f4ec96539d398a0d4dbfdadb'
+            image 'maven:3.5.3-alpine@sha256:4c4e266aacf8ea6976b52df8467134b9f628cfed347c2f6aaf9e6aff832f7c45'
             args '-v /root/.m2:/root/.m2'            
         }
     }
